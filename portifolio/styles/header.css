@@ -1,0 +1,21 @@
+header{
+  background-color: #444444;
+  color: whitesmoke;
+  display: flex;
+  
+
+}
+
+header ul{
+    font-size: 10px;
+    align-items: center;
+    padding-left: 50%;
+    display: flex;
+    flex: space-between;
+    gap: 10%;
+}
+
+
+header div{
+    padding-left: 2%;
+}

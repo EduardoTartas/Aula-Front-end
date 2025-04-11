@@ -1,0 +1,14 @@
+nav{
+    background-color: #7a7a7a;
+    justify-items: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+nav ul{
+    display: flex;
+    gap: 12px;
+}
+
+nav img{
+    border-radius: 100%;
+}
