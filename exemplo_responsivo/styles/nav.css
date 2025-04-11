@@ -1,0 +1,26 @@
+nav {
+    font-size: 22px;
+    background-color: #E5E5E5B2;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+nav ul li:nth-child(4) {
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: #E74C3C;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li:nth-child(4):hover {
+    background-color: rgba(255, 114, 98, 0.808);
+}
