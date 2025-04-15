@@ -1,0 +1,60 @@
+.dash{
+    border: black solid 1px;
+    width: 31px;
+  }
+/*section projetos*/
+main .projetos {
+    padding: 40px;
+    padding-top:47px ;
+    background-color: #EEECEC;
+}
+
+main .projetos p{
+    font-size:20px;
+    font-weight: 400;
+    padding-bottom:2px;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    padding-top: 23px;
+}
+
+/*section quem somos*/
+
+main .quemSomos{
+    height: 549px;
+    padding: 40px;
+    background-color:#F3F3F3;
+}
+main .quemSomos .content{
+    padding-top: 50px;
+    display: flex;
+    gap:50px;
+}
+
+main .quemSomos p:nth-child(1){
+    font-size:20px;
+    font-weight: 400;
+    padding-bottom:2px;
+}
+
+main .quemSomos p:nth-last-child(1){
+    padding-top: 51px;
+    font-size:18px;
+    font-weight: 400;
+    padding-bottom:2px;
+}
+
+main .quemSomos img{
+width: 591px;
+height: 346px;
+}
+
+/*section faq*/
+main .faq{
+    height: 345px;
+    padding: 40px;
+    background-color:#EEECEC;
+}
