@@ -120,3 +120,16 @@ main .equipe .card div {
     gap: 15px;
 }
 
+/*section fale conosco*/
+
+main .faleConosco {
+    min-height: 411px;
+    padding: 40px;
+    background-color: #EEECEC;
+}
+
+main .faleConosco p{
+    font-size:20px;
+    font-weight: 400;
+    padding-bottom:2px;
+}
