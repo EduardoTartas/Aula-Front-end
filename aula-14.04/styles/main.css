@@ -74,7 +74,7 @@ main .faq ul {
 main .faq li {
     align-content: center;
     width: 100%;
-    background-color: #F3F3F3;
+    background-color: #D9D9D9;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -120,6 +120,17 @@ main .equipe .card div {
     gap: 15px;
 }
 
+main .equipe ul{
+    gap: 5px;
+    display: flex;
+    padding: 40px;
+}
+
+main .equipe li img{
+    width: 90px;
+    height: 90px;
+
+}
 /*section fale conosco*/
 
 main .faleConosco {
