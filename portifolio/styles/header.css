@@ -3,16 +3,16 @@ header{
   color: whitesmoke;
   display: flex;
   
-
 }
 
 header ul{
-    font-size: 10px;
+    font-size: 18px;
     align-items: center;
-    padding-left: 50%;
+    padding-left: 65%;
     display: flex;
     flex: space-between;
-    gap: 10%;
+    gap: 20px;
+    height: 35px;
 }
 
 
