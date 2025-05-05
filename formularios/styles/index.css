@@ -1,0 +1,75 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.formulario div {
+    margin-bottom: 25px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select,
+.formulario textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.sexo-opcoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    label{
+        margin: 0;
+    }
+}
+
+.formulario textarea {
+    height: 80px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.formulario div:nth-last-child(2) {
+    display: flex;
+    justify-content: center;
+    label {
+        margin: 0 5px;
+    }
+}
