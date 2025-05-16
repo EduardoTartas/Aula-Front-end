@@ -1,4 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.quicksand-custom {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
