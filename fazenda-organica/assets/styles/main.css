@@ -1,4 +1,7 @@
-.card-galeria {
+main{
+    padding: 20px;
+}
+main .card-galeria {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
