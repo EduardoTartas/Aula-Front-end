@@ -1,0 +1,19 @@
+footer{
+    background-color: rgba(56, 80, 54);
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+footer img:nth-child(1){
+    width: 240px;
+    height: auto;
+}
+
+footer img:nth-child(2){
+    width: 130px;
+    height: auto;
+}
